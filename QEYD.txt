@@ -1,0 +1,23 @@
+Cədvəl — Android (Flutter)
+Nibras Code © 2026
+
+Bu ZIP veb tətbiq DEYİL.
+Bu, Android Studio / Flutter ilə APK yığmaq üçündür.
+
+1. Zipi açın
+2. Android Studio və ya:
+     flutter create . --project-name cedvel --org com.nibrascode --platforms=android
+     flutter pub get
+     flutter build apk --release
+3. APK: build/app/outputs/flutter-apk/app-release.apk
+
+Nə düzəldilib
+- Demo plan yoxdur
+- Cədvəl: günlər solda, saatlar yuxarıda
+- Həftənin başlanğıcını seçmək
+- Dərs xəbərdarlığı (yuxarı bildiriş + səs)
+- Plan redaktəsi
+- Real statistika
+- Məxfilik siyasəti
+- Nümunə ad: Rəşad
+- Cədvəli PNG şəkil kimi telefona yükləmək

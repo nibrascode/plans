@@ -1,0 +1,9 @@
+android/key.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+build/
+.dart_tool/
+android/local.properties
+android/.gradle/
