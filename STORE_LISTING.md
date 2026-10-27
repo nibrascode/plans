@@ -1,113 +1,84 @@
-# Google Play Store Listing – Cədvəl
+# Store Listing – Nibras Plans (v1.0.0, versionCode 1)
 
-Bu sənəd Play Console-a yükləmək üçün lazım olan bütün mətnləri ehtiva edir.
-
----
-
-## 1. Tətbiq adı (App name)
-**Cədvəl – Plan & Cədvəl**
-
-(Qısa variant: **Cədvəl**)
+Package: `com.nibras.plans` · Developer: Nibras Code · Contact: nibrascode@gmail.com
+Privacy policy: https://nibrascode.com/privacy/nibras-plans
+Category: **Productivity** · Content rating: Everyone / 3+ · Price: Free (no ads, no in-app purchases in 1.0.0)
 
 ---
 
-## 2. Qısa təsvir (Short description) – max 80 simvol
+## App name
+**Nibras Plans**
+
+## Short description (EN, ≤80)
 ```
-Gününə nəzarət et. Dərs, tapşırıq və planlarını asanlıqla idarə et.
+Free offline timetable & planner. Save your schedule as an image to gallery.
 ```
 
----
-
-## 3. Tam təsvir (Full description)
-
+## Full description (EN)
 ```
-Cədvəl – Gününə nəzarət et!
+Nibras Plans – plan your week, your way.
 
-Nibras Code tərəfindən hazırlanmış sadə və gözəl planlama tətbiqi.
+A simple, beautiful timetable and daily planner by Nibras Code. Every feature is free, works fully offline, and needs no account.
 
-✅ Günlük və həftəlik plan görünüşü
-✅ Dərs, tapşırıq və tədbir əlavə et
-✅ Statistika və tamamlanma faizi
-✅ Rəngli və rahat interfeys
-✅ Tamamilə oflayn işləyir
-✅ Heç bir hesab və ya qeydiyyat tələb olunmur
+FEATURES
+• Weekly timetable grid – days on the side, hours on top; tap an empty cell to add a lesson
+• Weekly plan view with lessons, tasks and events
+• Tasks list with pending / completed status
+• Statistics – completion rate and weekly overview
+• Save your timetable as a PNG image to your gallery or share it
+• Local lesson reminders (notifications)
+• Choose which day your week starts on
+• Search across your plans
+• Light and dark theme
 
-Kimlər üçün uyğundur?
-• Tələbələr
-• Müəllimlər
-• İş adamları
-• Hər kəs ki, gününü planlamaq istəyir
+PRIVACY FIRST
+• No account, no sign-up
+• No ads, no analytics, no tracking
+• All your plans are stored only on your device
 
-Xüsusiyyətlər:
-• Planları sürüşdürərək silmək
-• Vaxt və məkan əlavə etmək
-• Premium funksiyalar (demo)
-• Azərbaycan dilində tam interfeys
+ALL FREE
+All features in this version are completely free. Premium is coming soon.
 
-Məxfilik:
-Bütün məlumatlar yalnız sizin cihazınızda saxlanılır. Heç bir məlumat serverə göndərilmir.
+Perfect for students, teachers and anyone who wants an organised week.
 
-Nibras Code – Smart tools for smart people
+Nibras Code – smart tools for smart people.
 ```
 
----
+## Qısa təsvir (AZ, ≤80)
+```
+Pulsuz oflayn dərs cədvəli və planlayıcı. Cədvəli şəkil kimi qalereyaya saxla.
+```
 
-## 4. Kateqoriya
-**Productivity** (Məhsuldarlıq)
+## Tam təsvir (AZ – qısa)
+```
+Nibras Plans – həftəni rahat planla.
+• Həftəlik dərs cədvəli, tapşırıqlar, statistika
+• Cədvəli PNG şəkil kimi qalereyaya saxla / paylaş
+• Lokal dərs xəbərdarlıqları
+• Hesab yoxdur, reklam yoxdur, izləmə yoxdur – məlumatlar yalnız cihazda
+• Bütün funksiyalar pulsuzdur. Premium – tezliklə.
+```
 
----
-
-## 5. Teqlər / Açar sözlər
-cədvəl, plan, planner, dərs cədvəli, tapşırıq, todo, schedule, tələbə, məktəb, universitet, nibras
-
----
-
-## 6. Məxfilik Siyasəti URL
-Play Console-da **Privacy Policy** sahəsinə bu linki qoyun:
-
-- Əgər GitHub Pages istifadə edirsinizsə:
-  `https://YOUR_USERNAME.github.io/cedvel/privacy_policy.html`
-- Və ya sadə Markdown:
-  `https://github.com/YOUR_USERNAME/cedvel/blob/main/privacy_policy.md`
-
-*(Öz domaininiz varsa daha yaxşıdır)*
+## Tags
+timetable, planner, schedule, school, student, tasks, cədvəl, plan, dərs cədvəli, nibras
 
 ---
 
-## 7. Data safety (Play Console – Data safety formu)
+## Data safety (Play)
+| Question | Answer |
+|---|---|
+| Collects or shares user data? | **No** |
+| Encrypted in transit | N/A (nothing collected) |
+| Deletion | Delete in app / uninstall |
 
-| Sual | Cavab |
-|------|-------|
-| Does your app collect or share any of the required user data types? | **No** |
-| Is all of the user data collected by your app encrypted in transit? | N/A (heç nə toplanmır) |
-| Do you provide a way for users to request that their data is deleted? | Yes (tətbiqi silməklə) |
+Huawei privacy tags: Collect personal data – **No**; Generative AI – **No**.
 
-**Collected data:** None  
-**Shared data:** None  
-**Security practices:** Data is encrypted in transit → Not applicable  
-**Data deletion:** Users can delete the app
+## Assets (`store/`)
+- `icon-512.png` – 512×512
+- `feature-graphic-1024x500.png`
+- `screenshot-1..4.png` – 1080×1920 real screenshots (Flutter web build, sample data): timetable, weekly, tasks, statistics
+- `upload_cert.pem` – upload certificate (from AAB META-INF/UPLOAD.RSA) for Huawei
 
----
-
-## 8. Content rating
-- Hədəf auditoriya: 3+ / Everyone
-- Zorakılıq, cinsi məzmun, qumar yoxdur
-- Uşaqlar üçün uyğundur (lakin 13+ tövsiyə olunur)
-
----
-
-## 9. Screenshot tələbləri (minimum)
-- Telefon: ən azı 2 ədəd (bizdə collage var)
-- 16:9 və ya 9:16 nisbət tövsiyə olunur
-- Feature Graphic: 1024 x 500 px (ayrıca hazırlamaq lazımdır)
-
----
-
-## 10. Əlaqə e-poçtu (Play Console)
-support@nibrascode.com  
-*(öz real e-poçtunuzu yazın)*
-
----
-
-## Qeyd
-Yuxarıdakı mətnləri birbaşa kopyalayıb Play Console-a yapışdıra bilərsiniz.
+## Notes
+- Upload AAB to Play **Internal testing** and Huawei **Draft** only; Publish/Submit later.
+- Premium screen shows "Tezliklə / Coming soon" – no paid claims anywhere.
