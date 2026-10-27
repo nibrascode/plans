@@ -46,7 +46,7 @@ class SettingsScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          service.isPremium ? 'Premium aktivdir' : 'Cədvəl Premium',
+                          'Premium — Tezliklə',
                           style: GoogleFonts.poppins(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -54,9 +54,7 @@ class SettingsScreen extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          service.isPremium
-                              ? 'Bütün funksiyalar açıqdır'
-                              : 'Limitsiz plan + əlavə xüsusiyyətlər',
+                          'Bu versiyada bütün funksiyalar pulsuzdur',
                           style: GoogleFonts.poppins(
                             color: Colors.white70,
                             fontSize: 13,

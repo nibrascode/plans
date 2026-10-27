@@ -23,7 +23,8 @@ class PlanService extends ChangeNotifier {
   final Set<String> _firedReminders = {};
 
   List<PlanItem> get plans => List.unmodifiable(_plans);
-  bool get isPremium => _isPremium;
+  // v1.0.0: bütün funksiyalar pulsuzdur. Premium — Tezliklə.
+  bool get isPremium => true;
   String get userName => _userName;
   ThemeMode get themeMode => _themeMode;
   List<String> get categories => List.unmodifiable(_categories);
@@ -33,10 +34,10 @@ class PlanService extends ChangeNotifier {
   bool get remindersEnabled => _remindersEnabled;
   bool get soundEnabled => _soundEnabled;
 
-  bool get canAddPlan => _isPremium || _plans.length < freePlanLimit;
+  bool get canAddPlan => true;
 
   int get remainingFreeSlots {
-    if (_isPremium) return 999;
+    return 999;
     return (freePlanLimit - _plans.length).clamp(0, freePlanLimit);
   }
 
@@ -164,7 +165,6 @@ class PlanService extends ChangeNotifier {
 
   void addCategory(String name) {
     if (name.trim().isEmpty || _categories.contains(name.trim())) return;
-    if (!_isPremium && _categories.length >= 4) return;
     _categories.add(name.trim());
     save();
     notifyListeners();

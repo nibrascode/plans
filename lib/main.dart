@@ -8,6 +8,7 @@ import 'services/reminder_service.dart';
 import 'widgets/reminder_banner.dart';
 import 'screens/main_shell.dart';
 import 'screens/onboarding_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,8 +24,15 @@ void main() async {
   runApp(const CedvelApp());
 }
 
-class CedvelApp extends StatelessWidget {
+class CedvelApp extends StatefulWidget {
   const CedvelApp({super.key});
+
+  @override
+  State<CedvelApp> createState() => _CedvelAppState();
+}
+
+class _CedvelAppState extends State<CedvelApp> {
+  bool _splashDone = false;
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +54,9 @@ class CedvelApp extends StatelessWidget {
             builder: (context, child) => ReminderBannerHost(
               child: child ?? const SizedBox.shrink(),
             ),
-            home: !service.isLoaded
+            home: !_splashDone
+                ? SplashScreen(onDone: () => setState(() => _splashDone = true))
+                : !service.isLoaded
                 ? const Scaffold(
                     body: Center(
                       child: CircularProgressIndicator(color: Color(0xFF6C5CE7)),

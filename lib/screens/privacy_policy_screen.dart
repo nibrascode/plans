@@ -24,14 +24,14 @@ class PrivacyPolicyScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              'Son yenilənmə: 19 Sentyabr 2026',
+              'Son yenilənmə: 27 Oktyabr 2026 · Versiya 1.0.0',
               style: GoogleFonts.poppins(color: Colors.grey, fontSize: 13),
             ),
             const SizedBox(height: 24),
 
             _section(
               '1. Giriş',
-              'Cədvəl (Nibras Code) sizin məxfiliyinizə hörmət edir. Tətbiq lokal işləyir. Ad, plan, cədvəl və bildiriş ayarlarınız bu cihazın yaddaşında qalır və serverə göndərilmir.',
+              'Cədvəl (Nibras Code) sizin məxfiliyinizə hörmət edir. Tətbiq lokal işləyir və əsas istifadə üçün hesab (qeydiyyat) tələb olunmur. Ad, plan, cədvəl və bildiriş ayarlarınız bu cihazın yaddaşında qalır və serverə göndərilmir.',
             ),
             _section(
               '2. Hansı məlumatları saxlayırıq?',
@@ -47,19 +47,27 @@ class PrivacyPolicyScreen extends StatelessWidget {
             ),
             _section(
               '5. Üçüncü tərəflər',
-              'Reklam, analitika və izləmə xidməti yoxdur. Məlumat paylaşılmır. Ödəniş sistemi hələ qoşulmayıb; qoşulanda bu siyasət yenilənəcək.',
+              'Reklam, analitika və izləmə xidməti yoxdur. Məlumat paylaşılmır.',
             ),
             _section(
-              '6. Məlumatların silinməsi',
+              '6. Pulsuz versiya və Premium',
+              'Bu versiyada (1.0.0) bütün funksiyalar pulsuzdur. Ödənişli Premium hələ yoxdur («Tezliklə»); tətbiqdə heç bir ödəniş və ya ödəniş məlumatı toplanmır. Premium əlavə olunarsa, bu siyasət əvvəlcədən yenilənəcək.',
+            ),
+            _section(
+              '7. Qalereyaya saxlama',
+              'Cədvəli şəkil (PNG) kimi saxladığınız zaman tətbiq yalnız sizin istəyinizlə şəkli cihazınızın qalereyasına yazır. Bunun üçün qalereya/foto icazəsi istənə bilər. Tətbiq qalereyanızdakı digər şəkilləri oxumur və heç yerə göndərmir.',
+            ),
+            _section(
+              '8. Məlumatların silinməsi',
               'Planları tətbiq daxilində silə, «Bütün planları sil» ilə hamısını təmizləyə və ya tətbiqi silməklə bütün lokal qeydləri silə bilərsiniz.',
             ),
             _section(
-              '7. Uşaqlar',
+              '9. Uşaqlar',
               'Tətbiq ümumi istifadə üçündür. 13 yaşdan kiçik uşaqların şəxsi məlumatını toplamırıq.',
             ),
             _section(
-              '8. Əlaqə',
-              'Nibras Code\nSuallar üçün tərtibatçı ilə əlaqə saxlayın.',
+              '10. Əlaqə',
+              'Nibras Code\nE-poçt: nibrascode@gmail.com',
             ),
 
             const SizedBox(height: 30),

@@ -29,8 +29,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     ),
     _OnboardData(
       icon: Icons.workspace_premium_rounded,
-      title: 'Premium ilə daha çox',
-      subtitle: 'Limitsiz plan, ixrac, kateqoriyalar və təkmil alətlər. Əsasımız Premium-dur.',
+      title: 'Hamısı pulsuz',
+      subtitle: 'Limitsiz plan, ixrac, kateqoriyalar və bütün alətlər pulsuzdur. Premium — tezliklə.',
     ),
   ];
 

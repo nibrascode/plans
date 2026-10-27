@@ -1,7 +1,7 @@
 # Məxfilik Siyasəti (Privacy Policy)
 
 **Cədvəl** tətbiqi üçün  
-**Son yenilənmə tarixi:** 13 Sentyabr 2026  
+**Son yenilənmə tarixi:** 27 Oktyabr 2026 (versiya 1.0.0)  
 **Tərtibatçı:** Nibras Code
 
 ---
@@ -29,7 +29,6 @@ Biz **toplamırıq**:
 Tətbiq yalnız sizin cihazınızda aşağıdakı məlumatları saxlayır:
 - Sizin daxil etdiyiniz planlar, dərs və tapşırıqlar
 - Tamamlanma statusu
-- Premium statusu (demo)
 
 Bu məlumatlar **SharedPreferences** vasitəsilə yalnız sizin cihazınızda saxlanılır və heç bir serverə ötürülmür.
 
@@ -47,6 +46,12 @@ Cədvəl heç bir üçüncü tərəf xidməti (Firebase Analytics, Google Ads, F
 Heç bir məlumat üçüncü tərəflərlə paylaşılmır.
 
 ---
+
+## 4.1. Pulsuz versiya və Premium
+Bu versiyada (1.0.0) bütün funksiyalar pulsuzdur. Əsas istifadə üçün hesab tələb olunmur. Ödənişli Premium hələ yoxdur (Tezliklə); heç bir ödəniş məlumatı toplanmır.
+
+## 4.2. Bildirişlər və qalereya
+Dərs xəbərdarlıqları yalnız cihazda lokal bildiriş kimi göstərilir. Cədvəli PNG kimi saxladıqda şəkil yalnız sizin istəyinizlə qalereyaya yazılır; digər şəkillər oxunmur.
 
 ## 5. Uşaqların məxfiliyi
 
@@ -73,7 +78,7 @@ Bu siyasət vaxtaşırı yenilənə bilər. Dəyişikliklər tətbiq yeniləməs
 Suallarınız və ya təklifləriniz üçün:
 
 **Tərtibatçı:** Nibras Code  
-**E-poçt:** support@nibrascode.com *(nümunə – öz e-poçtunuzu yazın)*
+**E-poçt:** nibrascode@gmail.com
 
 ---
 
